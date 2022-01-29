@@ -1,0 +1,47 @@
+print('\n-----------------------------GENERAL KNOWLEDGE QUIZ-----------------------------')
+
+score=0
+answer1=input('What do you mean by word “Android” ------ ? \na) tough animal\nb)fast eagle\nc)human like\nd)Tasty food\n')
+if answer1=='c' or answer1=='human like':
+    print('Correct')
+    score+=1
+    print('Score= ',score)
+else:
+    print('Incorrect')
+
+answer2=input('2023 cricket world cup will be hosted by ------- ?\na)England\nb)India\nc)Newzealand\nd)Pakistan\n')
+if answer2=='b' or answer2=='India':
+    print('Correct')
+    score+=1
+    print('Your current score is=',score)
+else:
+    print('Incorrect')
+
+answer3=input('The mean radius of the earth is approximately\na)3200km\nb)6400km\nc)9600km\n12800km\n')
+if answer3=='b' or answer3=='6400':
+    print('Correct')
+    score+=1
+    print('Your current score is=',score)
+else:
+    print('Incorrect')
+
+answer4=input('Which Muslim scientist wrote first book on Algebra ?\na)Al-khwarizmi\nb)Ibn Sina\nc)Archimides\nd)Euclid\n')
+if answer4=='a' or answer4=='Al-khwarizmi':
+    print('Correct')
+    score+=1
+    print('Your current score is=',score)
+else:
+    print('Incorrect')
+
+answer5=input('The author of the Book ” The World As I See It” ?\na)Adam Smith\nb)Balban\nc)Albert Einstein\nd)Homer')
+if answer5=='c' or answer5=='Albert Einstein':
+    print('Correct')
+    score+=1
+    print('Your current score is=',score)
+else:
+    print('Incorrect')
+
+print('----------------------------------------------\nEND OF QUIZ')
+print('YOUR FINAL SCORE IS', score)
+print('----------------------------------------------')
+
